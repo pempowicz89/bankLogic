@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class BankLogic {
 
+    private int accountNumber = 1001;
     private ArrayList<Customer> customerList = new ArrayList<>();
 
 
@@ -41,8 +42,9 @@ public class BankLogic {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
                 // Kunden finns
-                SavingsAccount account = new SavingsAccount(1.0, 1.0, "savings");
-                // Kontot skapat, l�gg till hos kund
+                SavingsAccount account = new SavingsAccount(0, 1.0, "savings", accountNumber);
+                accountNumber++;
+                // Kontot skapat, lägg till hos kund
                 customer.addAccount(account);
                 // Ta ut kontonummer, returna det
                 int accountNbr = account.getAccountNumber();
@@ -142,7 +144,7 @@ public class BankLogic {
                 for (SavingsAccount customerAccount : customerAccounts) {
                     if (accountId == customerAccount.getAccountNumber()) {
 
-                        customerAccount.setAmount(amount);
+                        customerAccount.setAmount(customerAccount.getAmount()+amount);
 
                         return true;
                     }
@@ -161,13 +163,14 @@ public class BankLogic {
                 ArrayList<SavingsAccount> customerAccounts = customer.getCustomerAccounts();
                 for (SavingsAccount customerAccount : customerAccounts) {
                     if (accountId == customerAccount.getAccountNumber()) {
-
-
-                        customerAccount.setAmount(amount);
-                        return true;
+                        if (amount <= customerAccount.getAmount()){
+                            customerAccount.setAmount(customerAccount.getAmount()-amount);
+                            return true;
+                        }
                     }
                 }
             }
-        } return false;
+        }
+        return false;
     }
 }

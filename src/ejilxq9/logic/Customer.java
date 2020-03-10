@@ -19,7 +19,7 @@ public class Customer {
     //Arraylisten som sedan används i BankLogic
     public ArrayList<SavingsAccount> customerAccounts = new ArrayList<>();
     //Konstruktorn
-    public Customer(String s, String name, String surname) {
+    public Customer(String name, String surname, String pNr) {
         this.name = name;
         this.surname = surname;
         this.pNr = pNr;

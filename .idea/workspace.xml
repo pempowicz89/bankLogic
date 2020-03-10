@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb201b20-0cd7-4956-8ca9-42fa42a162b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/err.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ejilxq9/logic/TestBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/err.txt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/err.txt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/BankLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/BankLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/SavingsAccount.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestBank (2)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ejilxq9.logic.Main" />
       <module name="bankLogic" />
@@ -92,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestBank (2)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestBank (1)" />
         <item itemvalue="Application.TestBank" />
         <item itemvalue="Application.TestMovie" />
@@ -117,7 +120,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1583848370349</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="senaste">
+      <created>1583861621401</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1583861621401</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +145,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Herfn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Herfn" />
+    <MESSAGE value="senaste" />
+    <option name="LAST_COMMIT_MESSAGE" value="senaste" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/bankLogic$TestBank.ic" NAME="TestBank Coverage Results" MODIFIED="1583846419697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

@@ -12,12 +12,13 @@ public class SavingsAccount {
     private double amount;
     private double interestRate;
     private String accountType = "Saving";
-    private static int accountNumber = 1001;
+    private int accountNumber;
 
-    public SavingsAccount(double amount, double interestRate, String accountType) {
+    public SavingsAccount(double amount, double interestRate, String accountType, int accountNumber) {
         this.amount = amount;
         this.interestRate = interestRate;
         this.accountType = accountType;
+        this.accountNumber = accountNumber;
     }
 
 
