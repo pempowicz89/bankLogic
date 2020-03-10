@@ -1,0 +1,5 @@
+Exception in thread "main" java.lang.NullPointerException
+	at ejilxq9.logic.BankLogic.createCustomer(BankLogic.java:26)
+	at ejilxq9.logic.TestBank.testingCreateCustomer(TestBank.java:417)
+	at ejilxq9.logic.TestBank.test(TestBank.java:52)
+	at ejilxq9.logic.TestBank.main(TestBank.java:493)

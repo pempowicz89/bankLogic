@@ -1,10 +1,8 @@
 package ejilxq9.logic;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class BankLogic {
-    static Scanner input = new Scanner(System.in);
 
     private ArrayList<Customer> customerList = new ArrayList<>();
 
