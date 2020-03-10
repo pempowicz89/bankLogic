@@ -4,7 +4,7 @@ public class Main {
     static BankLogic myLogic = new BankLogic();
 
     public static void main(String[] args) {
-        myLogic.addCustomers();
+
         myLogic.getAllCustomers();
     }
 }

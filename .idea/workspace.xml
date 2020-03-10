@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="eb201b20-0cd7-4956-8ca9-42fa42a162b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/err.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/BankLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/BankLogic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Test$TestBank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/Test.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +33,7 @@
   <component name="ProjectId" id="1Y4dLCfDu7HqHUUel328v0n2XAB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -37,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ejilxq9.logic.Main" />
       <module name="bankLogic" />
@@ -47,23 +58,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ejilxq9.logic.Test" />
-      <module name="bankLogic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ejilxq9.logic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="TestBank (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ejilxq9.logic.Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMovie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestMovie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testbank" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ejilxq9.logic.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestBank (1)" />
+        <item itemvalue="Application.TestBank" />
+        <item itemvalue="Application.TestMovie" />
+        <item itemvalue="Application.testbank" />
       </list>
     </recent_temporary>
   </component>
@@ -92,5 +116,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bankLogic$TestBank.ic" NAME="TestBank Coverage Results" MODIFIED="1583846419697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/bankLogic$Test.ic" NAME="Test Coverage Results" MODIFIED="1583755461784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ejilxq9.logic.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/bankLogic$Main.ic" NAME="Main Coverage Results" MODIFIED="1583846259456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

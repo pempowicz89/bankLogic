@@ -14,15 +14,15 @@ public class Customer {
 
     private String name;
     private String surname;
-    private String pNo;
+    private String pNr;
 
     //Arraylisten som sedan används i BankLogic
-    private ArrayList<SavingsAccount> customerAccounts = new ArrayList<>();
+    public ArrayList<SavingsAccount> customerAccounts = new ArrayList<>();
     //Konstruktorn
-    public Customer(String name, String surname, String pNo) {
+    public Customer(String s, String name, String surname) {
         this.name = name;
         this.surname = surname;
-        this.pNo = pNo;
+        this.pNr = pNr;
     }
 
     public String getName() {
@@ -41,8 +41,8 @@ public class Customer {
         this.surname = surname;
     }
 
-    public String getpNo() {
-        return pNo;
+    public String getpNr() {
+        return pNr;
     }
 
     public ArrayList<SavingsAccount> getCustomerAccounts() {
@@ -55,7 +55,7 @@ public class Customer {
 
     @Override
     public String toString() {
-        return name + ' ' + surname + ' ' + pNo;
+        return name + ' ' + surname + ' ' + pNr;
     }
 
     public void addAccount(SavingsAccount account) {
