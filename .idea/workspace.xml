@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="eb201b20-0cd7-4956-8ca9-42fa42a162b6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/BankLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/BankLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Customer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/SavingsAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/bankLogic/ejilxq9/logic/SavingsAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bankLogic.zip" beforeDir="false" afterPath="$PROJECT_DIR$/bankLogic.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/SavingsAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/SavingsAccount.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestBank (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="ejilxq9.logic.Main" />
       <module name="bankLogic" />

@@ -1,13 +1,20 @@
 package ejilxq9.logic;
 
 import java.util.ArrayList;
+/**
+ * bank-logic klasssen
+ *
+ * @author Jens Lindström
+ * @email ejilxq-9@studera.ltu.se
+ * @course D0018D Objekorienterad programmering
+ */
 
 public class BankLogic {
 
     private int accountNumber = 1001;
     private ArrayList<Customer> customerList = new ArrayList<>();
 
-
+        //Hämtar alla kunder med customerList
     public ArrayList<String> getAllCustomers() {
         if (customerList.size() > 0) {
             System.out.println(customerList.toString());
@@ -18,7 +25,7 @@ public class BankLogic {
         }
         return allCustomers;
     }
-
+        //Skapar nya kunder
     public boolean createCustomer(String name, String surName, String pNr)
     {
         boolean create = true;
@@ -37,7 +44,7 @@ public class BankLogic {
 
         return create;
     }
-
+            //Skapar ett savingaccount
     public int createSavingsAccount(String pNr) {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
@@ -54,7 +61,7 @@ public class BankLogic {
         // Ingen kund fanns med det personnummret fanns, returnera -1
         return -1;
     }
-
+            //hämtar alla konton hos specifika kunder
     public String getAccount(String pNr, int accountId) {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
@@ -78,7 +85,7 @@ public class BankLogic {
             if (pNr.equals(customer.getpNr())) {
                 //kunden finns
                 String customerNameAndPNr = customer.toString();
-                // f�r varje konto, l�gg till "kontonummer amount kontotyp r�nta"
+                // f�r varje konto, lägg till "kontonummer amount kontotyp ränta"
                 ArrayList<String> customerData = new ArrayList<String>();
                 customerData.add(customerNameAndPNr); // Index 0 tillagd i listan
 
@@ -91,7 +98,7 @@ public class BankLogic {
         }
         return null;
     }
-
+            //ändrar specifika kunders namn.
     public boolean changeCustomerName(String name, String surname, String pNr) {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
@@ -100,11 +107,11 @@ public class BankLogic {
                 return true;
             }
         }
-
+            //om man inte ändrar på förnamn, efternamn eller personnummer så returnerar den inget
         return false;
     }
 
-
+            //stänger specifika kunders konto
     public ArrayList<Customer> closeAccount(String pNr, int accountId) {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
@@ -122,7 +129,7 @@ public class BankLogic {
 
         return null;
     }
-
+            //raderar kunderna
     public String deleteCustomer(String pNr) {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
@@ -136,7 +143,7 @@ public class BankLogic {
 
         return null;
     }
-
+            //sätter in pengar på kundernas specifika konto
     public boolean deposit(String pNr, int accountId, double amount) {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
@@ -156,7 +163,7 @@ public class BankLogic {
         return false;
 
     }
-
+            //tar ut pengar från kundernas specifika konton
     public boolean withdraw(String pNr, int accountId, double amount) {
         for (Customer customer : customerList) {
             if (pNr.equals(customer.getpNr())) {
