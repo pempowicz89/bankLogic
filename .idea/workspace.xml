@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb201b20-0cd7-4956-8ca9-42fa42a162b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bankLogic.zip" beforeDir="false" afterPath="$PROJECT_DIR$/bankLogic.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejilxq9/logic/BankLogic.java" afterDir="false" />
-    </list>
+    <list default="true" id="eb201b20-0cd7-4956-8ca9-42fa42a162b6" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,8 +85,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestBank (2)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestBank (2)" />
         <item itemvalue="Application.TestBank (1)" />
         <item itemvalue="Application.TestBank" />
         <item itemvalue="Application.TestMovie" />
